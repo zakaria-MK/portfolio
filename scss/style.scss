@@ -1,0 +1,30 @@
+#main-head {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bg-black {
+    background: black;
+    color: #fff;
+  }
+
+  .element {
+    width: 30%;
+  }
+
+  .element:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  @media(min-width: 1199px) {
+    .element {
+      padding: 2.5em !important;
+    }
+  }
+
+}
+
+
+

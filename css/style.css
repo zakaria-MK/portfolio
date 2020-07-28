@@ -1,0 +1,22 @@
+#main-head img {
+  width: 100%;
+  height: 100%;
+}
+#main-head .bg-black {
+  background: black;
+  color: #fff;
+}
+#main-head .element {
+  width: 30%;
+}
+#main-head .element:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+@media (min-width: 1199px) {
+  #main-head .element {
+    padding: 2.5em !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
